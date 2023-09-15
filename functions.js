@@ -25,7 +25,7 @@ function leapYear(year) {
 
 console.log(leapYear(2000));
 
-// Aufgabe 3 -> Pangram?
+// Aufgabe 3.1 -> Pangram?
 
 function isPangram(string) {
   let text = string.toLowerCase();
@@ -37,6 +37,17 @@ function isPangram(string) {
     }
   }
   return true;
+}
+
+console.log(
+  isPangram("Franz jagt im komplett verwahrlosten Taxi quer durch Bayern")
+);
+
+// Aufgabe 3.2 -> Pangram?
+
+function isPangram(string) {
+  let text = string.toLowerCase();
+  let alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
 }
 
 console.log(
